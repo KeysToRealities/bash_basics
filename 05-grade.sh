@@ -28,8 +28,9 @@ if [ "$temp" -lt 40 ]; then
 elif [ "$temp" -lt 60 ]; then
   echo "It's chilly"
 elif [ "$temp" -lt 70 ]; then
-     echo "It's okay"
+     echo "It's great"
+
 else
-    echo "It's hot"
+    echo "It's Scorching hot"
 fi
 
